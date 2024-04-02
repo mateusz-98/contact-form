@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-logo">
+                <img src="img/contact-form-icon.svg" alt="logo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="contact-top">
+                <h1 class="contact-title">Interested in our business pricing?</h1>
+                <p class="contact-text">Fill out the form to view details and we'll contact you as son as possible.</p>
+            </div>
+            <div class="contact-bottom">
+                <div class="contact-wrapper">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Ethan Johnson">
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Company Email</label>
+                            <input type="text" name="email" id="email" placeholder="ethan@johnson.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="company-size">Company Size</label>
+                            <div class="select-field">
+                                <select name="company-size" id="company-size">
+                                    <option value="50-100 employees" selected="selected">50-100 employees</option>
+                                    <option value="150-200 employees">150-200 employees</option>
+                                    <option value="250-300 employees">250-300 employees</option>
+                                    <option value="350-400 employees">350-400 employees</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="subject">Subject</label>
+                            <div class="select-field">
+                                <select name="subject" id="subject">
+                                    <option value="pages" selected="selected">Building Landing pages</option>
+                                    <option value="shop">Building e-commerce</option>
+                                    <option value="seo">SEO</option>
+                                    <option value="marketing">Marketing</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-textarea">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" value="50-100 employees">50-100 employees</textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-button">
+                            <button class="form-btn">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
