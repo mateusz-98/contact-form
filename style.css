@@ -114,6 +114,7 @@ textarea {
     font-weight: 600;
     padding: 24px 18px;
     color: var(--text-clr);
+    background: var(--white-clr);
     box-shadow: 0 100px 30px 0 rgba(17, 23, 41, 0.05);
 }
 .form-button {
